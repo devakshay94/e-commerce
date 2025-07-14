@@ -12,7 +12,7 @@ import ProductGrid from "@/components/ProductGrid"
 
 const ITEMS_PER_PAGE = 8
 
-export default function ProductListingPage() {
+function ProductListingPage() {
   // State management
   const [selectedCategories, setSelectedCategories] = useState([])
   const [selectedRatings, setSelectedRatings] = useState([])
@@ -136,3 +136,5 @@ export default function ProductListingPage() {
     </div>
   )
 }
+
+export default ProductListingPage
