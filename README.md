@@ -1,5 +1,7 @@
 # E-Commerce Product Listing
 
+Preview for this Project: https://e-commerce-ruby-alpha.vercel.app/
+
 A modern, responsive e-commerce product listing page built with React 18 and vanilla CSS.
 
 ## Features
@@ -20,33 +22,6 @@ A modern, responsive e-commerce product listing page built with React 18 and van
 - **State Management**: React hooks with custom hooks
 - **Storage**: localStorage for favorites persistence
 - **Build Tool**: Create React App
-
-## Project Structure
-
-\`\`\`
-src/
-├── components/
-│   ├── ui/                   # Reusable UI components
-│   │   ├── Button.jsx
-│   │   ├── Card.jsx
-│   │   ├── Badge.jsx
-│   │   ├── Select.jsx
-│   │   ├── Checkbox.jsx
-│   │   └── Label.jsx
-│   ├── icons/
-│   │   └── Icons.jsx         # SVG icon components
-│   ├── ProductCard.jsx       # Individual product card
-│   ├── ProductGrid.jsx       # Product grid container
-│   └── FilterSidebar.jsx     # Filters and sorting
-├── hooks/
-│   ├── useFavorites.js       # Favorites management
-│   └── useProductFilters.js  # Product filtering logic
-├── data/
-│   └── products.js           # Mock product data
-├── App.jsx                   # Main application component
-├── App.css                   # Application styles
-└── index.js                  # Application entry point
-\`\`\`
 
 ## Getting Started
 
@@ -119,15 +94,3 @@ All UI components are in \`src/components/ui/\` and can be customized as needed.
 - Product filtering uses memoization to prevent unnecessary re-renders
 - Component re-renders are optimized with proper dependency arrays
 - localStorage operations are wrapped in try-catch blocks
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
